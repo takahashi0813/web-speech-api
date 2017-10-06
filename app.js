@@ -22,5 +22,6 @@ speech.addEventListener('result', function(e) {
 
 //テキスト表示
 function getTextContents(text) {
-  content.innerHTML = '<input type="text" value="' + text + '">';
+  content.innerHTML = '<p>認識された言葉</p>' +
+                   '<input type="text" value="' + text + '">';
 }
